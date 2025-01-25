@@ -3,7 +3,8 @@ import java.util.HashSet;
 public class validSudoku {
     public static void main(String[] args) {
 
-        boolean response = isValidSudoku();
+        char[][] mySudoku = new char[9][9];
+        boolean response = isValidSudoku(mySudoku);
         System.out.println("Is a valid sudoku? " + response);
     }
 
