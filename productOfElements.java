@@ -22,6 +22,7 @@ public class productOfElements {
             product = 1;
         }
         */
+        
         // This is a more efficient solution
         Arrays.fill(answer, 1);
         int prefix = 1;
